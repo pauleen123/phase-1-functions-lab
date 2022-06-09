@@ -47,7 +47,11 @@ function calculatesFarePrice (start, destination)
     }
     }
 
-    let mondayWork=function(activity="go to the office")
+    let mondayWork=function(_activity="go to the office")
     {
       return 'This Monday, I will $(activity)'
     }
+
+    
+
+
